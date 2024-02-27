@@ -13,5 +13,7 @@ public class App {
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
         ReentrantLock reentrantLock = new ReentrantLock();
+        // 另外一个本地仓库去更新
+        int count = 2;
     }
 }
